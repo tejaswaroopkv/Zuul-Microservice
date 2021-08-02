@@ -1,0 +1,5 @@
+package com.api.gatewayserver.config;
+
+public class WebSecurityConfig {
+
+}

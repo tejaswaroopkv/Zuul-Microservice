@@ -1,0 +1,9 @@
+
+server.port=8989
+
+spring.application.name= api-gateway
+
+eureka.client.serviceUrl.defaultZone= http://localhost:8761/eureka
+
+zuul.routes.CINEMA-SERVICE.path= /admin/**
+zuul.routes.CINEMA-SERVICE.url= ADMIN-MANAGER-SERVICE

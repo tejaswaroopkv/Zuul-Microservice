@@ -1,0 +1,5 @@
+package com.api.gatewayserver.conroller;
+
+public class JwtAuthenticationController {
+
+}
